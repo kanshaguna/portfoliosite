@@ -1,0 +1,20 @@
+.contact {
+    background-image: linear-gradient(to right, $mainGreen, $mainDarkerGreen);
+    color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 20px;
+    display: block;
+    text-align: center;
+
+
+    @mixin atMedium {
+        text-align: left;
+        padding-top: 40px;
+    }
+
+}

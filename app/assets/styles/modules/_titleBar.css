@@ -1,0 +1,17 @@
+#titleBar {
+    background-color: white;
+    color: black;
+    position: relative;
+    padding: 20px;
+    opacity: .95;
+    float: left;
+    margin: 0 auto -80px auto;
+    top: -30px;
+    border-radius: 7px;
+    border: solid $mainGreen 1px;
+
+    @mixin atMedium {
+       width: 200px;
+       text-align: center;
+    }
+}

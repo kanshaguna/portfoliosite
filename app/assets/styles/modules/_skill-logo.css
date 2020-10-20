@@ -1,0 +1,23 @@
+.skill-logo {
+    height: 50px;  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right:30px;
+    display: block;
+    
+
+     @mixin atMedium {
+        height: 40px;
+        width: 40px;
+        padding: 50px 20px 30px 20px;
+        display: inline;
+
+        &-second-row {
+            padding-top: 20%;
+            padding-bottom: 30%;
+        }
+    }
+
+
+     
+}

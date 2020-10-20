@@ -1,0 +1,35 @@
+.site-header {
+     background-image: linear-gradient(to right, $mainGreen, $mainDarkerGreen);
+     color: $mainWhite;
+     padding: 1px 0px 1px 0px;
+     font-size: 1.5rem;
+     text-align: center;
+
+     @mixin atSmall {
+          font-size: 1.6rem;
+          text-align: left;
+          padding: 1px 1px 1px 10px;
+     }
+
+      @mixin atMedium {
+          font-size: 1.6rem;
+          text-align: left;
+          padding: 1px 1px 1px 10px;
+          
+     }
+      @mixin atLarge {
+          font-size: 1.9rem;
+          text-align: left;
+          padding: 1px 1px 1px 10px;
+     }
+    
+
+  
+
+
+
+}
+
+ 
+
+  
