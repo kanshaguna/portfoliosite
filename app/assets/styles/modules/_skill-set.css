@@ -8,7 +8,9 @@
     overflow-x: hidden;
     overflow-y: auto;
     font-family: 'Spectral SC', serif;
-    padding: 20px;
+    height: 700px;
+    padding-top: 40px;
+    
     
     @mixin atMedium {
         height: 270px;

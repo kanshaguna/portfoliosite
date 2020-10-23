@@ -4,65 +4,146 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Kansha Guna</title>
-    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&family=Snippet&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nanum+Myeongjo:wght@800&family=Poiret+One&display=swap" rel="stylesheet">
-   
-    
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+
+
 </head>
 
 <body>
+    <ul>
+        <li class="headline--nameFont">Kansha.G</li>
+        <li class="headline--resumeFont" style="float:right"><a href="./assets/pdf/Resume_Template.pdf">Resume</a></li>
+        <div class="headline__menu-icon">
+            <div class="headline__menu-icon__middle open-modal modal"></div>
+        </div>
 
-    <div class="site-header">
-        <p>K a n s h a . G</p>
-    </div>
+
+    </ul>
+
     <div class="page-section">
-       <p>PARALLAX IMAGE NEED TO BE ADDED!</p>
+        <div class="introBox">
+            <p >Hi there,</p>
+            <div class="introBox--stayCenter">
+                <p>I have been given the privelege to wear many hats and continue to evolve. I am Web Developer, 3D & graphic designer and an avid-learner. In my own time, I also play the role of a student working towards a Major in Software Engineering.</p>
+                <p>Scroll for more info.</p>
+            </div>
+            <div class="introBox--stayRight">
+                <p>-Kansha</p>
+            </div>
+            
+        </div>
     </div>
 
     <div id="titleBar"> SKILLS</div>
     <div class="skill-set">
-        <div class="flex-container">
-            <div class="skill-logo__atSmall">
-                <img class="skill-logo"src="./assets/images/htmlLogo.png">
-                <img class="skill-logo"src="./assets/images/cssLogo.png">
-                <img class="skill-logo"src="./assets/images/jsLogo.png">
-                <img class="skill-logo" src="./assets/images/javaLogo.png">
-                <img class="skill-logo" src="./assets/images/pythonLogo.png">
-                <img class="skill-logo" src="./assets/images/cLogo.png">
+            <div class="skill-logo--title">
+                <p>Programming Languages</p>
             </div>
-    </div>
-        <div class="flex-container">
-            <div>
-                <img class="skill-logo skill-logo-second-row" src="./assets/images/githubIcon.png">
-                <img class="skill-logo skill-logo-second-row" src="./assets/images/posgreIcon.png">
+            <div class="flex-container">
+                <row>
+                    <img class="skill-logo" src="./assets/images/htmlLogo.png">
+                    <p>85%</p>
+                </row>
+
+                <column>
+                    <img class="skill-logo" src="./assets/images/cssLogo.png">
+                    <p>70%</p>
+                </column>
+
+                <row>
+                    <img class="skill-logo" src="./assets/images/jsLogo.png">
+                    <p>60%</p>
+                </row>
+                
+                <column>
+                    <img class="skill-logo" src="./assets/images/pythonLogo.png">
+                    <p>60%</p>
+                </column>
+                <row>
+                    <img class="skill-logo" src="./assets/images/javaLogo.png">
+                    <p>50%</p>
+                </row>
+                
+                <column>
+                    <img class="skill-logo" src="./assets/images/cLogo.png">
+                    <p>40%</p>
+                </column>
             </div>
+        <div class="skill-logo--title skill-logo--titleRow">
+            <p>Version Control</p>
+            <p>Database Management</p>
         </div>
-    </div>    
+        <div class="flex-container">   
+            <row>
+                <img class="skill-logo" src="./assets/images/githubIcon.png">
+                <p>60%</p>
+            </row>
+
+
+            <column>
+                <img class="skill-logo" src="./assets/images/posgreIcon.png">
+                <p>30%</p>
+            </column>
+        </div>
+        <!-- <div class="skill-logo--title">
+            <p>Database Management</p>
+        </div>
+        <div class="flex-container">
+            <column>
+                <img class="skill-logo" src="./assets/images/posgreIcon.png">
+                <p>85%</p>
+            </column>
+        </div> -->
+
+
+
+    </div>
+  
 
     <div id = "titleBar"> PORTFOLIO</div>
         <div class = 'portfolio'>
             <div class="flex-container">
-                <div class = "portfolio portfolio__thumbnails">
+                <div class = "portfolio__thumbnails">
                     <a href="https://sha-hangman.netlify.app/">
                     <img src="./assets/images/Hangman-app.jpg" alt="thumbnail" width = "200px" height = "200px">
                     </a>
                 </div>
-                <div class="portfolio portfolio__thumbnails">
-                    <img src="./assets/images/inprogress.jpg" alt="thumbnail"  width = "200px" height = "200px">
+                <div class=" portfolio__thumbnails">
+                    <a href="https://sha-travel-site.netlify.app/">
+                    <img src="./assets/images/TravelSite-app-01.jpg" alt="thumbnail"  width = "200px" height = "200px">
+                    </a>
                 </div>
             </div>
         </div>
    
     <div id="titleBar"> GET IN TOUCH</div>
-    <div class = "contact">
-        <h3>kanshaguna@gmail.com</h3>
-        <h3>012 -215 3640</h3> 
+    <div class = "contact flex-container">
+        <div class="contact--inline">
+            <img src="assets/images/email.png" alt="Email" class="contact--Icon contact--IconHover">
+            <p>kanshaguna@gmail.com</p>
+        </div>
+        <div class="contact--inline">
+            <img src="assets/images/phone-call.png" alt="Mobile" class="contact--Icon contact--IconHover">
+            <p>012 -215 3640</p>
+        </div>
+        <div class="contact--inline">
+            <a href="https://www.linkedin.com/in/kansha-guna/"> <img src="assets/images/linkedIn.png" alt="LinkedIn" class="contact--Icon contact--IconHover"></a>
+            <p>LinkedIn</p>
+        </div>
     </div> 
 
 
     <script src="bundled.js"></script>
     
 </body>
+
+<footer class="contact--footer">
+    <p>Thank you for visiting.</p>
+</footer>
 
 </html>

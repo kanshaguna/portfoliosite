@@ -1,21 +1,36 @@
 .skill-logo {
     height: 50px;  
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 10px;
-    padding-right:30px;
+    padding-right: 50px;
     display: block;
+
+    &--ratings {
+        display: flex;
+        padding-right: 30px;
+        font-family: 'Montserrat', sans-serif;
+
+
+    }
+
+    &--title {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400    ;
+        text-align: center;
+
+    }
+
+    &--titleRow {
+        display: flex;
+        padding-left: 20px;
+        text-align: center;
+
+    }
+
     
 
-     @mixin atMedium {
-        height: 40px;
-        width: 40px;
-        padding: 50px 20px 30px 20px;
-        display: inline;
-
-        &-second-row {
-            padding-top: 20%;
-            padding-bottom: 30%;
-        }
+    @mixin atLarge {
+        padding: 50px 40px 30px 40px;
     }
 
 

@@ -1,9 +1,4 @@
 .page-section { 
-    height: 600px;
-    background-attachment: fixed;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: auto;
-    overflow-x: hidden;
-    overflow-y: auto;
+    padding: 40px;
+   
 }

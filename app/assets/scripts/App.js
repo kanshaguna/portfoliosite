@@ -1,5 +1,7 @@
 import "../styles/styles.css";
-import img from '../images/imageOne.jpg';
+import MobileMenu from "./modules/MobileMenu"
+
+
 
 // Add the image to our existing div.
 
@@ -13,9 +15,27 @@ import img from '../images/imageOne.jpg';
 //   element.appendChild(myBgImg);
 // }
 // component();
-  
 
 
+let mobileMenu = new MobileMenu();
+let modal
+
+
+document.querySelectorAll(".open-modal").forEach(el => {
+  el.addEventListener("click", e => {
+    e.preventDefault()
+    if (typeof modal== "undefined") {
+      import(/* webpackChunckName: "modal" */'./modules/Modal').then(x => {
+        modal =new x.default()
+        setTimeout(() => {
+          
+        }, timeout);
+      }).catch(() => console.log("There was a problem."))
+    } else {
+      modal.openTheModal()
+    }
+  })
+})
 
 if (module.hot) {
   module.hot.accept();

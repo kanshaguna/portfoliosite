@@ -9,6 +9,8 @@
     top: -30px;
     border-radius: 7px;
     border: solid $mainGreen 1px;
+    font-family: 'Montserrat', sans-serif;
+    
 
     @mixin atMedium {
        width: 200px;

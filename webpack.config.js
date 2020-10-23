@@ -2,7 +2,7 @@ const path = require("path");
 
 const postCSSPlugins = [
   require('postcss-assets')({
-    loadPaths: ['./app/assets/images']
+    loadPaths: ['./app/assets/images/']
   }),
   require("postcss-import"),
   require("postcss-mixins"),
@@ -12,6 +12,7 @@ const postCSSPlugins = [
 ];
 
 module.exports = {
+  
   entry: "./app/assets/scripts/App.js",
   output: {
     filename: "bundled.js",
@@ -40,9 +41,11 @@ module.exports = {
       },
       {
          test: /\.(png|svg|jpg|gif)$/,
-         use: [
-           'file-loader',
-         ],
+         loader: 'file-loader',
+         options: {
+           name: 'image/[name].[ext]',
+           publicPath: '/'
+         }
        },
     ],
   },
