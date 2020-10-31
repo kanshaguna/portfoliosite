@@ -1,5 +1,5 @@
 .contact {
-    background-image: linear-gradient(to right, $mainGreen, $mainDarkerGreen);
+     background-image: linear-gradient(to right, $mainGreen, $mainDarkerGreen);
     color: white;
     background-attachment: fixed;
     background-position: center;
@@ -16,7 +16,7 @@
 
     &--footer {
         text-align: center;
-        background-image: linear-gradient(to right, $mainGreen, $mainDarkerGreen);
+         background-image: linear-gradient(to right, $mainGreen, $mainDarkerGreen);
         color: white;
         background-attachment: fixed;
         background-position: center;

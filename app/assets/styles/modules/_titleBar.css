@@ -11,7 +11,6 @@
     border: solid $mainGreen 1px;
     font-family: 'Montserrat', sans-serif;
     
-
     @mixin atMedium {
        width: 200px;
        text-align: center;

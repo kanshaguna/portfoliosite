@@ -2,11 +2,12 @@
     height: 500px;
     cursor: pointer;
     padding-top: 50px;
+    background-color: white;
     
     &__thumbnails {
         padding: 10px;
     }
-    
+
 
     @mixin atMedium {
         height: 310px;
@@ -20,6 +21,7 @@
         }
 
     &__thumbnails:hover {
+        padding:0;
         box-shadow: 0 0 5px #72A985; 
         transform: scale(1.2);
         }

@@ -15,14 +15,14 @@
 </head>
 
 <body>
-    <ul>
-        <li class="headline--nameFont">Kansha.G</li>
+    <ul class='headline'>
+        <div>
+            <li class="headline--nameFont">Kansha.G</li>
         <li class="headline--resumeFont" style="float:right"><a href="./assets/pdf/Resume_Template.pdf">Resume</a></li>
-        <div class="headline__menu-icon">
-            <div class="headline__menu-icon__middle open-modal modal"></div>
         </div>
-
-
+        <div class="headline__menu-icon">
+            <div class="headline__menu-icon__middle"></div>
+        </div>
     </ul>
 
     <div class="page-section">
@@ -33,7 +33,7 @@
                 <p>Scroll for more info.</p>
             </div>
             <div class="introBox--stayRight">
-                <p>-Kansha</p>
+                <p>♡ Kansha</p>
             </div>
             
         </div>
@@ -44,69 +44,56 @@
             <div class="skill-logo--title">
                 <p>Programming Languages</p>
             </div>
-            <div class="flex-container">
+            <div class="flex-container row">
                 <row>
                     <img class="skill-logo" src="./assets/images/htmlLogo.png">
-                    <p>85%</p>
+                    <p class="skill-logo__percentage">85%</p>
                 </row>
 
                 <column>
                     <img class="skill-logo" src="./assets/images/cssLogo.png">
-                    <p>70%</p>
+                    <p class="skill-logo__percentage">70%</p>
                 </column>
 
                 <row>
                     <img class="skill-logo" src="./assets/images/jsLogo.png">
-                    <p>60%</p>
+                    <p class="skill-logo__percentage">60%</p>
                 </row>
                 
                 <column>
                     <img class="skill-logo" src="./assets/images/pythonLogo.png">
-                    <p>60%</p>
+                    <p class="skill-logo__percentage">60%</p>
                 </column>
                 <row>
                     <img class="skill-logo" src="./assets/images/javaLogo.png">
-                    <p>50%</p>
+                    <p class="skill-logo__percentage">50%</p>
                 </row>
                 
                 <column>
                     <img class="skill-logo" src="./assets/images/cLogo.png">
-                    <p>40%</p>
+                    <p class="skill-logo__percentage">40%</p>
                 </column>
             </div>
-        <div class="skill-logo--title skill-logo--titleRow">
-            <p>Version Control</p>
-            <p>Database Management</p>
-        </div>
         <div class="flex-container">   
-            <row>
-                <img class="skill-logo" src="./assets/images/githubIcon.png">
-                <p>60%</p>
+            <row class="skill-logo--container">
+                <p class="skill-logo--title">Version Control</p>
+                <img class="skill-logo--Centered" src="./assets/images/githubIcon.png">
+                <p class="skill-logo__percentage">60%</p>
             </row>
 
 
-            <column>
-                <img class="skill-logo" src="./assets/images/posgreIcon.png">
-                <p>30%</p>
+            <column  class="skill-logo--container" >
+                <p class="skill-logo--title">Database Management</p>
+                <img class="skill-logo--Centered" src="./assets/images/posgreIcon.png">
+                <p class="skill-logo__percentage">30%</p>
             </column>
         </div>
-        <!-- <div class="skill-logo--title">
-            <p>Database Management</p>
-        </div>
-        <div class="flex-container">
-            <column>
-                <img class="skill-logo" src="./assets/images/posgreIcon.png">
-                <p>85%</p>
-            </column>
-        </div> -->
-
-
 
     </div>
   
 
     <div id = "titleBar"> PORTFOLIO</div>
-        <div class = 'portfolio'>
+        <div class ='portfolio'>
             <div class="flex-container">
                 <div class = "portfolio__thumbnails">
                     <a href="https://sha-hangman.netlify.app/">

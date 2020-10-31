@@ -2,8 +2,14 @@
     height: 50px;  
     padding-top: 5px;
     padding-bottom: 10px;
-    padding-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: block;
+
+    @mixin atMedium {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 
     &--ratings {
         display: flex;
@@ -20,19 +26,46 @@
 
     }
 
-    &--titleRow {
-        display: flex;
-        padding-left: 20px;
+    &--container {
         text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 
+    &--Centered {
+        height: 50px;  
+        padding-top: 5px;
+        padding-bottom: 10px;
+        
+    }
+
+    &--Centered:hover {
+        padding: 0;
+        border-radius: 50%;
+        box-shadow: 0 0 10px #72A985; 
+        transition: .7s ease-out;
+        
+    }
+
+    &__percentage {
+        text-align: center;
+         font-family: 'Montserrat', sans-serif;
+
+        @mixin atMedium {
+            padding-top: 0;
+        }
     }
 
     
 
-    @mixin atLarge {
-        padding: 50px 40px 30px 40px;
-    }
 
 
      
+}
+
+.skill-logo:hover {
+        padding: 0;
+        border-radius: 50%;
+        box-shadow: 0 0 10px #72A985; 
+        transition: .7s ease-out;
 }
