@@ -3,4 +3,86 @@
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+
+    &--text {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        line-height: 1.5rem;
+        
+        
+        @mixin atSmaller {
+            font-size: 1.1rem;
+            font-weight: 300;
+        }
+
+        @mixin atSmall {
+            font-size: 1.2rem;
+        }
+
+        @mixin atMedium {
+            font-size: 1.4rem;
+        }
+
+        @mixin atLarge {
+            font-size: 1.5rem;
+        }
+
+    }
+
+    &--margin {
+        padding-top:70px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        @mixin atSmaller {
+            padding-top:70px;
+        }
+        
+        @mixin atSmall {
+           padding-top:90px;
+        }
+
+        @mixin atMedium {
+           padding-top:110px;
+        }
+
+        @mixin atLarge {
+           padding-top:70px;
+           padding-left: 50px;
+           padding-right: 50px;
+        }
+    }
+
+    &--background {
+        height: 520px;
+
+        @mixin atSmaller {
+            height: 500px;
+        }
+        @mixin atSmall {
+            height: 450px;
+        }
+
+    }
+
+    &--alignLeft {
+        display: block;
+        text-align: left;
+    }
+
+    &--alignRight {
+        text-align: right;
+    }
+
+    &--personalLogo {
+        height: 120px;
+        padding-left: 15px;
+
+
+        @mixin atLarge {
+            height: 120px;
+        }
+        
+    }
+
 }

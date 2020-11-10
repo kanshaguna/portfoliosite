@@ -1,5 +1,5 @@
 .portfolio {
-    height: 500px;
+    height: 640px;
     cursor: pointer;
     padding-top: 50px;
     background-color: white;
@@ -8,13 +8,34 @@
         padding: 10px;
     }
 
+    &--description {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+
+    &--projectType {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+
+    @mixin atSmall {
+        height: 300px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
 
     @mixin atMedium {
-        height: 310px;
-        padding: 20px;
+        height: 280px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+       
 
     &__thumbnails {
-        padding: 50px;
+        padding: 30px;
         opacity: 0.9;
         transition: .5s;
 

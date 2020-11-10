@@ -1,17 +1,23 @@
 .skill-set {
-    background-image: linear-gradient(to right, $mainGreen, $mainDarkerGreen);
+    background-image: linear-gradient(to bottom, $mainDarkBlue, $mainblue);
     color: white;
     font-family: 'Spectral SC', serif;
     height: 700px;
     padding-top: 40px;
-    
+
+    @mixin atSmaller {
+        height: 650px;
+    }
+    @mixin atSmall {
+        height: 360px;
+    }
     
     @mixin atMedium {
-        height: 340px;
+        height: 370px;
     }
 
     @mixin atLarge {
-        height: 340px;
+        height: 385px;
     }
 
 
