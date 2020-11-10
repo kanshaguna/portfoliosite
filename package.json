@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack-dev-server --progress --inline",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -12,9 +13,7 @@
     "mixin": "^0.2.0",
     "normalize.css": "^8.0.1",
     "particlesjs": "^2.2.3",
-    "postcss": "^8.0.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "postcss": "^8.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
