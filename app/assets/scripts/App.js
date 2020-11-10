@@ -14,12 +14,6 @@ new RevealOnScroll(document.querySelectorAll(".skill-logo"), 75)
 new RevealOnScroll(document.querySelectorAll(".skill-logo--Centered"), 75)
 new RevealOnScroll(document.querySelectorAll(".portfolio__thumbnails"), 60)
 
-
-
-
-
-
-
 if (module.hot) {
   module.hot.accept();
 }
