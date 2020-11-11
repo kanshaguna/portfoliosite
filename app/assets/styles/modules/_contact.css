@@ -44,7 +44,7 @@
     }
     
     &--Icon:hover {
-        box-shadow: 0 10px 10px #72A985;
+        box-shadow: 0 10px 10px #ffffff;
         padding: 8px;
         background-color: white;
         opacity: .7;
