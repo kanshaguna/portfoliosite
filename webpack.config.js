@@ -91,6 +91,11 @@ if (currentTask == 'build') {
     filename: "[name].[chunkhash].js",
     chunkFilename: "[name].[chunkhash].js",
     path: path.resolve(__dirname, "docs"),
+  }, 
+  {
+    filename: "[name].[chunkhash].pdf",
+    chunkFilename: "[name].[chunkhash].pdf",
+    path: path.resolve(__dirname, "docs"),
   }
   config.mode = 'production'
   config.optimization = {
