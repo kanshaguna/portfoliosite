@@ -21,10 +21,12 @@
 
         @mixin atMedium {
             font-size: 1.4rem;
+            line-height: 1.9rem;
         }
 
         @mixin atLarge {
             font-size: 1.5rem;
+            line-height: 2rem;
         }
 
     }
@@ -68,21 +70,12 @@
     &--alignLeft {
         display: block;
         text-align: left;
+    
     }
 
     &--alignRight {
         text-align: right;
     }
 
-    &--personalLogo {
-        height: 120px;
-        padding-left: 15px;
-
-
-        @mixin atLarge {
-            height: 120px;
-        }
-        
-    }
 
 }

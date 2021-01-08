@@ -23,6 +23,7 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: 400    ;
         text-align: center;
+        
 
     }
 
@@ -30,6 +31,7 @@
         text-align: center;
         padding-left: 30px;
         padding-right: 30px;
+
     }
 
     &--Centered {
@@ -50,11 +52,24 @@
     &__percentage {
         text-align: center;
         font-family: 'Montserrat', sans-serif;
+        font-size: 0.8rem;
+        opacity: .8;
 
         @mixin atMedium {
             padding-top: 0;
         }
     }   
+    &__text {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.8rem;
+        opacity: .8;  
+
+        @mixin atMedium {
+            padding-top: 0;
+        }
+    } 
+
 }
 
 .skill-logo:hover {
