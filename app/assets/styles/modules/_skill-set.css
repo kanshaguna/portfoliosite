@@ -2,7 +2,7 @@
     background-color: black;
     color: white;
     font-family: 'Spectral SC', serif;
-    height: 700px;
+    height: 950px;
     padding-top: 40px;
 
     @mixin atSmaller {

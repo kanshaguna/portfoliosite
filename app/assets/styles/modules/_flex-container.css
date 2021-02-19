@@ -56,14 +56,16 @@
     }
 
     &--background {
-        height: 520px;
+        height: 420px;
 
         @mixin atSmaller {
-            height: 500px;
+            height: 400px;
         }
-        @mixin atSmall {
-            height: 450px;
-        }
+
+       
+       @mixin atLarge {
+           height: 350px;
+       }
 
     }
 
