@@ -104,5 +104,4 @@ if (currentTask == 'build') {
     )
 }
 
-
 module.exports = config
