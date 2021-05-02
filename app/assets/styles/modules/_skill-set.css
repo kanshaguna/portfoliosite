@@ -2,11 +2,11 @@
     background-color: black;
     color: white;
     font-family: 'Spectral SC', serif;
-    height: 1000px;
+    height: 1050px;
     padding-top: 40px;
 
     @mixin atSmaller {
-        height: 1000px;
+        height: 1050px;
     }
     @mixin atSmall {
         height: 550px;

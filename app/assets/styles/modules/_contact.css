@@ -15,18 +15,6 @@
     line-height: 0.5rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-
-    &--footer {
-        
-        @mixin atMedium {
-            display: block;
-        }
-
-        @mixin atLarge {
-            padding-top: 0;
-        }
-    }
-
     &--inline {
         display: flex;
         justify-content: left;

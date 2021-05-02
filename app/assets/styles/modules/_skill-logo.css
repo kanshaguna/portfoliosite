@@ -23,6 +23,8 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: 400    ;
         text-align: center;
+        padding:5px;
+    
         
 
     }
@@ -65,9 +67,10 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 0.8rem;
         opacity: .8;  
-
+        
         @mixin atMedium {
             padding-top: 0;
+
         }
     } 
 

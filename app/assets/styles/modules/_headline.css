@@ -43,7 +43,7 @@ a {
      &--resumeIcon {
          height: 2px;
          width: 2px;
-         padding-right: 40px;
+         padding-right: 50px;
 
          @mixin atMedium {
               display: none;
