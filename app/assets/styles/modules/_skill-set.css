@@ -2,22 +2,22 @@
     background-color: black;
     color: white;
     font-family: 'Spectral SC', serif;
-    height: 1050px;
+    height: 1250px;
     padding-top: 40px;
 
     @mixin atSmaller {
-        height: 1050px;
+        height: 1250px;
     }
     @mixin atSmall {
-        height: 550px;
+        height: 750px;
     }
     
     @mixin atMedium {
-        height: 550px;
+        height: 650px;
     }
 
     @mixin atLarge {
-        height: 450px;
+        height: 520px;
     }
 
 
